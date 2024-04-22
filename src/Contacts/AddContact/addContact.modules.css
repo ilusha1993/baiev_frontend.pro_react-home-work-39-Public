@@ -1,0 +1,54 @@
+.formBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #cbcbd7;
+}
+
+.inputBlock{
+    display: flex;
+    gap: 10px;
+}
+
+.inputBlock input{
+    width: 200px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.buttonBlock{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.buttonSubmit{
+    width: 45%;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: #c9f3c9;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #79e779;
+    }
+}
+
+.buttonCancel{
+    width: 45%;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: #eed2d2;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #efa9a9;
+    }
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 700px;
+}
+
+h1{
+    text-align: center;
+}
+
+thead th{
+    background-color: #c2cacc;
+}
+
+th, td:not(:last-child){
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.delete{
+    padding: 10px;
+    background-color: #eed2d2;
+    border: 1px solid gray;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #efa9a9;
+    }
+}
+
+.addContact{
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #6c6c6c;
+    background-color: #c9f3c9;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #c9f3c9;
+    }
+}
