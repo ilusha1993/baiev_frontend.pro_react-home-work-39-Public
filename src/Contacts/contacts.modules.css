@@ -49,3 +49,8 @@ th, td:not(:last-child){
         background-color: #c9f3c9;
     }
 }
+
+.idContact:hover{
+    background-color: #c9f3c9;
+    cursor: pointer;
+}
